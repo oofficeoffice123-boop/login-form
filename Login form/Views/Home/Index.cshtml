@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<section class="dashboard-shell">
+    <span class="dashboard-eyebrow">ACCOUNT</span>
+    <h1>Signed in. Good Boy</h1>
+    <div class="dashboard-account">
+        <span>Email address</span>
+        <strong>@User.Identity?.Name</strong>
+    </div>
+</section>
